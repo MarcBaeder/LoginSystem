@@ -1,14 +1,14 @@
 while True:
-    intent = input("Do you want to login or join? > ")
+    access_to_site = input("Do you want to login or join? > ")
 
-    if intent == "login":
+    if access_to_site == "login":
         username = input("Name: ")
         password = input("Password: ")
 
         print(username)
         print(password)
         break
-    elif intent == "join":
+    elif access_to_site == "join":
         username = input("Name: ")
         password = input("Password: ")
 
