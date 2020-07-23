@@ -1,5 +1,19 @@
-username = input("Name: ")
-password = input("Password: ")
+while True:
+    intent = input("Do you want to login or join? > ")
 
-print(username)
-print(password)
+    if intent == "login":
+        username = input("Name: ")
+        password = input("Password: ")
+
+        print(username)
+        print(password)
+        break
+    elif intent == "join":
+        username = input("Name: ")
+        password = input("Password: ")
+
+        print(username)
+        print(password)
+        break
+    else:
+        print("Action not supported")
